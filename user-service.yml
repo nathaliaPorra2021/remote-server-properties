@@ -31,7 +31,7 @@ logging:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
 eureka:
   client:
-    defaultZone: http://localhost:9000/eureka/
+    defaultZone: http://localhost:8099/
 
 
 
