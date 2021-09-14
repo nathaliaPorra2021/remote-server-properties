@@ -25,3 +25,7 @@ spring:
           uri: lb://showtime-service
           predicates:
             - Path=/showtimes/**
+        - id: booking-service
+          uri: lb://booking-service
+          predicates:
+            - Path=/bookings/**
